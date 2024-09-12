@@ -1,1 +1,10 @@
-# shalpa
+# ShaLPA
+ShaLPA tool - Shallow Landslides Propagation Assessment at basin scale
+
+Hazard maps for shallow landslides at the basin or regional scale often provide information solely about past events (inventory maps) and/or potential source areas (initiation susceptibility maps). Despite the availability of several propagation assessment software tools, runout maps that estimate the propagation areas of potential shallow landslides at basin scale are very rare. To fill this gap, the ShaLPA runout GIS tool was developed as an easy-to-use and efficient solution. This tool is based on a geometric approach, that relates one or more dimensional characteristics of a shallow landslide to the maximum runout of the mobilized material.
+
+The ShaLPA GIS tool was tested for the first time in the Giampilieri and Briga area (Sicily, Italy), allowing the identification of strengths and weaknesses in the process and leading to improvements in the structure of the scripts. The application leverages the capability of the free QGIS software to automate the data processing required for the runout analysis. The scripts used by the runout GIS tool primarily manage a detailed DTM and basic geotechnical data, drawing the paths along which shallow landslides may move. The model estimates the maximum distance reached by the mobilised material (runout) and describes the distribution of velocity and kinetic energy along the path.
+
+The reliability assessment was conducted by comparing observed and estimated runout values, providing encouraging results. The simplicity of using the ShaLPA tool promotes the integration of runout and failure susceptibility analyses, enhancing the completeness of hazard and risk assessment and improving the effectiveness of landslide mitigation measures.
+
+All files are Graphical Models for QGIS version 3.32 and later
