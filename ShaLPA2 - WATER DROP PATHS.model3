@@ -1,0 +1,1021 @@
+<!DOCTYPE model>
+<Option type="Map">
+  <Option name="children" type="Map">
+    <Option name="gdal:assignprojection_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="gdal:assignprojection" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1095" type="double"/>
+        <Option name="component_pos_y" value="340" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="proj" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="510" type="double"/>
+      <Option name="component_pos_y" value="225" type="double"/>
+      <Option name="component_width" value="120" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" value="native:rasterlayerproperties_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="sagang:fillsinkswangliu_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="id" value="gdal:assignprojection_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="CRS" type="List">
+          <Option type="Map">
+            <Option name="expression" value=" @demrasprop_CRS_AUTHID " type="QString"/>
+            <Option name="source" value="3" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="sagang:fillsinkswangliu_1" type="QString"/>
+            <Option name="output_name" value="FILLED" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="grass:r.drain_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="grass:r.drain" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="705.4252044252044" type="double"/>
+        <Option name="component_pos_y" value="390.7729677729678" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="r.drain" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="120" type="double"/>
+      <Option name="component_pos_y" value="285" type="double"/>
+      <Option name="component_width" value="119.99999999999997" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" value="native:rasterlayerproperties_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="sagang:fillsinkswangliu_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="gdal:assignprojection_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="id" value="grass:r.drain_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="-a" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="-c" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="-d" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="-n" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="GRASS_MIN_AREA_PARAMETER" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0.0001" type="double"/>
+          </Option>
+        </Option>
+        <Option name="GRASS_OUTPUT_TYPE_PARAMETER" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="GRASS_RASTER_FORMAT_META" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="GRASS_RASTER_FORMAT_OPT" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="GRASS_REGION_CELLSIZE_PARAMETER" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="double"/>
+          </Option>
+        </Option>
+        <Option name="GRASS_REGION_PARAMETER" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="GRASS_SNAP_TOLERANCE_PARAMETER" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="-1" type="double"/>
+          </Option>
+        </Option>
+        <Option name="GRASS_VECTOR_DSCO" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="GRASS_VECTOR_EXPORT_NOCAT" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="GRASS_VECTOR_LCO" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="direction" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="input" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="gdal:assignprojection_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="start_coordinates" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+        <Option name="start_points" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="shalpa1_landslide_identification_points" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:assignprojection_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:assignprojection" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="623.2712842712842" type="double"/>
+        <Option name="component_pos_y" value="485.42857142857144" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="projection" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="315" type="double"/>
+      <Option name="component_pos_y" value="345" type="double"/>
+      <Option name="component_width" value="150.00000000000006" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="native:assignprojection_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="CRS" type="List">
+          <Option type="Map">
+            <Option name="expression" value=" @demrasprop_CRS_AUTHID " type="QString"/>
+            <Option name="source" value="3" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:joinattributesbylocation_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:buffer_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:buffer" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="806.6666666666666" type="double"/>
+        <Option name="component_pos_y" value="167" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="buffer" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="315" type="double"/>
+      <Option name="component_pos_y" value="285" type="double"/>
+      <Option name="component_width" value="150" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" value="grass:r.drain_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="native:rasterlayerproperties_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="sagang:fillsinkswangliu_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="id" value="native:buffer_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="DISSOLVE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="DISTANCE" type="List">
+          <Option type="Map">
+            <Option name="expression" value=" @demrasprop_PIXEL_WIDTH/3" type="QString"/>
+            <Option name="source" value="3" type="int"/>
+          </Option>
+        </Option>
+        <Option name="END_CAP_STYLE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="shalpa1_landslide_identification_points" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="JOIN_STYLE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="MITER_LIMIT" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="2" type="double"/>
+          </Option>
+        </Option>
+        <Option name="SEGMENTS" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="5" type="int"/>
+          </Option>
+        </Option>
+        <Option name="SEPARATE_DISJOINT" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:createspatialindex_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:createspatialindex" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="777.3333333333333" type="double"/>
+        <Option name="component_pos_y" value="585.6666666666666" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="crespatind" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="510" type="double"/>
+      <Option name="component_pos_y" value="285" type="double"/>
+      <Option name="component_width" value="120" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" value="grass:r.drain_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="native:buffer_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="native:rasterlayerproperties_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="sagang:fillsinkswangliu_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="id" value="native:createspatialindex_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:buffer_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:fieldcalculator_6" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:fieldcalculator" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="-287.2558162405284" type="double"/>
+        <Option name="component_pos_y" value="453.4937634100595" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="f_length" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="240" type="double"/>
+      <Option name="component_pos_y" value="405" type="double"/>
+      <Option name="component_width" value="120" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="native:fieldcalculator_6" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="FIELD_LENGTH" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="10" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_NAME" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="length" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_PRECISION" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="2" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_TYPE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FORMULA" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="$length" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:setzfromraster_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:fieldcalculator_7" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:fieldcalculator" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="-216.58914957386176" type="double"/>
+        <Option name="component_pos_y" value="575.4937634100595" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="f_length3D" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="390" type="double"/>
+      <Option name="component_pos_y" value="405" type="double"/>
+      <Option name="component_width" value="120" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="native:fieldcalculator_7" type="QString"/>
+      <Option name="outputs" type="Map">
+        <Option name="ShaLPA2 - Water Drop Paths" type="Map">
+          <Option name="child_id" value="native:fieldcalculator_7" type="QString"/>
+          <Option name="color" value="" type="QString"/>
+          <Option name="comment" type="Map">
+            <Option name="color" value="" type="QString"/>
+            <Option name="component_description" value="" type="QString"/>
+            <Option name="component_height" value="60" type="double"/>
+            <Option name="component_pos_x" value="0" type="double"/>
+            <Option name="component_pos_y" value="0" type="double"/>
+            <Option name="component_width" value="100" type="double"/>
+            <Option name="outputs_collapsed" value="true" type="bool"/>
+            <Option name="parameters_collapsed" value="true" type="bool"/>
+          </Option>
+          <Option name="component_description" value="ShaLPA2 - Water Drop Paths" type="QString"/>
+          <Option name="component_height" value="30" type="double"/>
+          <Option name="component_pos_x" value="315" type="double"/>
+          <Option name="component_pos_y" value="495" type="double"/>
+          <Option name="component_width" value="270.00000000000006" type="double"/>
+          <Option name="default_value" type="Map">
+            <Option name="class" value="QgsProcessingOutputLayerDefinition" type="QString"/>
+            <Option name="create_options" type="Map">
+              <Option name="fileEncoding" value="UTF-8" type="QString"/>
+            </Option>
+            <Option name="sink" type="Map">
+              <Option name="active" value="true" type="bool"/>
+              <Option name="type" value="1" type="int"/>
+              <Option name="val" value="TEMPORARY_OUTPUT" type="QString"/>
+            </Option>
+          </Option>
+          <Option name="mandatory" value="true" type="bool"/>
+          <Option name="name" value="ShaLPA2 - Water Drop Paths" type="QString"/>
+          <Option name="output_name" value="OUTPUT" type="QString"/>
+          <Option name="outputs_collapsed" value="true" type="bool"/>
+          <Option name="parameters_collapsed" value="true" type="bool"/>
+        </Option>
+      </Option>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="FIELD_LENGTH" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="10" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_NAME" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="length3D" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_PRECISION" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="2" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FIELD_TYPE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="FORMULA" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="length3D($geometry)" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:fieldcalculator_6" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:joinattributesbylocation_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:joinattributesbylocation" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="482.5073452256034" type="double"/>
+        <Option name="component_pos_y" value="423.38509968520464" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="joinattrloc" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="120" type="double"/>
+      <Option name="component_pos_y" value="345" type="double"/>
+      <Option name="component_width" value="120" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" value="grass:r.drain_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="native:buffer_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="native:createspatialindex_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="native:rasterlayerproperties_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+        <Option type="Map">
+          <Option name="child_id" value="sagang:fillsinkswangliu_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="id" value="native:joinattributesbylocation_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="DISCARD_NONMATCHING" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="false" type="bool"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="grass:r.drain_1" type="QString"/>
+            <Option name="output_name" value="drain" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="JOIN" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:createspatialindex_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="JOIN_FIELDS" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="StringList">
+              <Option value="" type="QString"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="METHOD" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="PREDICATE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="List">
+              <Option value="0" type="int"/>
+              <Option value="3" type="int"/>
+              <Option value="6" type="int"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option name="PREFIX" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" type="invalid"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:rasterlayerproperties_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:rasterlayerproperties" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="3125.333333333333" type="double"/>
+        <Option name="component_pos_y" value="885.6666666666665" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="demrasprop" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="120" type="double"/>
+      <Option name="component_pos_y" value="225" type="double"/>
+      <Option name="component_width" value="120" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="native:rasterlayerproperties_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="BAND" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="1" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="original_dtm_raster" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="native:setzfromraster_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="native:setzfromraster" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="483.80856180856176" type="double"/>
+        <Option name="component_pos_y" value="342.43073593073586" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="drape_z" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="510" type="double"/>
+      <Option name="component_pos_y" value="345" type="double"/>
+      <Option name="component_width" value="119.99999999999994" type="double"/>
+      <Option name="dependencies"/>
+      <Option name="id" value="native:setzfromraster_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="BAND" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="1" type="QString"/>
+          </Option>
+        </Option>
+        <Option name="INPUT" type="List">
+          <Option type="Map">
+            <Option name="child_id" value="native:assignprojection_1" type="QString"/>
+            <Option name="output_name" value="OUTPUT" type="QString"/>
+            <Option name="source" value="1" type="int"/>
+          </Option>
+        </Option>
+        <Option name="NODATA" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="double"/>
+          </Option>
+        </Option>
+        <Option name="OFFSET" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="0" type="double"/>
+          </Option>
+        </Option>
+        <Option name="RASTER" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="original_dtm_raster" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="SCALE" type="List">
+          <Option type="Map">
+            <Option name="source" value="2" type="int"/>
+            <Option name="static_value" value="1" type="double"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="sagang:fillsinkswangliu_1" type="Map">
+      <Option name="active" value="true" type="bool"/>
+      <Option name="alg_config"/>
+      <Option name="alg_id" value="sagang:fillsinkswangliu" type="QString"/>
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="1455" type="double"/>
+        <Option name="component_pos_y" value="760" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="fillsinkwang" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="315" type="double"/>
+      <Option name="component_pos_y" value="225" type="double"/>
+      <Option name="component_width" value="150" type="double"/>
+      <Option name="dependencies" type="List">
+        <Option type="Map">
+          <Option name="child_id" value="native:rasterlayerproperties_1" type="QString"/>
+          <Option name="conditional_branch" value="" type="QString"/>
+        </Option>
+      </Option>
+      <Option name="id" value="sagang:fillsinkswangliu_1" type="QString"/>
+      <Option name="outputs"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="params" type="Map">
+        <Option name="ELEV" type="List">
+          <Option type="Map">
+            <Option name="parameter_name" value="original_dtm_raster" type="QString"/>
+            <Option name="source" value="0" type="int"/>
+          </Option>
+        </Option>
+        <Option name="MINSLOPE" type="List">
+          <Option type="Map">
+            <Option name="expression" value=" @minimum_slope_degree__fill_sinks " type="QString"/>
+            <Option name="source" value="3" type="int"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
+  <Option name="designerParameterValues" type="Map">
+    <Option name="native:fieldcalculator_7:ShaLPA2 - Water Drop Paths" type="QgsProcessingOutputLayerDefinition">
+      <Option type="Map">
+        <Option name="create_options" type="Map">
+          <Option name="fileEncoding" value="UTF-8" type="QString"/>
+        </Option>
+        <Option name="sink" type="Map">
+          <Option name="active" value="true" type="bool"/>
+          <Option name="type" value="1" type="int"/>
+          <Option name="val" value="TEMPORARY_OUTPUT" type="QString"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option name="original_dtm_raster" value="DTM_ARTA_2m_small_819f5860_5e0d_413e_890e_1ffabd199525" type="QString"/>
+    <Option name="shalpa1_landslide_identification_points" value="ShaLPA1___Landslide_Identification_Points_d6c2de39_f48a_4fcf_aedf_825c793a7d2f" type="QString"/>
+  </Option>
+  <Option name="groupBoxes" type="List">
+    <Option type="Map">
+      <Option name="color" value="0,226,218,255,rgb:0,0.88627450980392153,0.85490196078431369,1" type="QString"/>
+      <Option name="component_description" value="OUTPUT" type="QString"/>
+      <Option name="component_height" value="89.99999999999997" type="double"/>
+      <Option name="component_pos_x" value="315" type="double"/>
+      <Option name="component_pos_y" value="495" type="double"/>
+      <Option name="component_width" value="570" type="double"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="uuid" value="{00836178-2f7f-4dd7-913a-31402cfcdb41}" type="QString"/>
+    </Option>
+    <Option type="Map">
+      <Option name="color" value="0,226,218,255,rgb:0,0.88627450980392153,0.85490196078431369,1" type="QString"/>
+      <Option name="component_description" value="ShaLPA2 - WATER DROP PATHS" type="QString"/>
+      <Option name="component_height" value="150" type="double"/>
+      <Option name="component_pos_x" value="315" type="double"/>
+      <Option name="component_pos_y" value="105" type="double"/>
+      <Option name="component_width" value="570" type="double"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+      <Option name="uuid" value="{31d98f2a-be13-4894-9e2a-4a7eb01ad1a5}" type="QString"/>
+    </Option>
+  </Option>
+  <Option name="help" type="Map">
+    <Option name="ALG_CREATOR" value="Lorenzo Moretti" type="QString"/>
+    <Option name="ALG_DESC" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-size:18pt; font-weight:600;&quot;>ShaLPA tool - Shallow Landslides Propagation Assessment at basin scale&lt;/span>&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>This script allows the creation of Water Drop Paths (WDPs) over a DTM. The DTM is resampled with the &amp;quot;&lt;a href=&quot;https://saga-gis.sourceforge.io/saga_tool_doc/9.2.0/ta_preprocessor_4.html&quot;>&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;>Fill Sink (Wang &amp;amp; Liu)&amp;quot;&lt;/span>&lt;/a> (Wang and Liu 2006), a SAGA tool to fill the small depressions in the terrain: this filling provides a better DTM for creating the WDPs.  You can change the minimum slope inside the module to see different result. The WDP use a GRASS tool, &amp;quot;&lt;a href=&quot;https://grass.osgeo.org/grass83/manuals/r.drain.html&quot;>&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;>r.drain&lt;/span>&lt;/a>&amp;quot;, to create the Water Drop Path (Roger S. Miller, 2001). The r.drain module has a limit of 1024 points as origin.&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-weight:600;&quot;>WARNING! &lt;/span>This script use much spatial analysis. If you run this tool more times in the same session you can see the empty table in the output vector. You have to save the result, quit QGIS and restart QGIS. &lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; text-decoration: underline;&quot;>INPUT&lt;/span>&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>The &lt;span style=&quot; font-weight:600;&quot;>ORIGINAL DTM&lt;/span> should be selected, the starting one with the best resolution, the &amp;quot;&lt;span style=&quot; font-weight:600;&quot;>ShaLPA1- Landslide Identification Points&lt;/span>&amp;quot; layer created by the script 1, containing the highest elevation points within the Source Areas and &amp;quot;&lt;span style=&quot; font-weight:600;&quot;>Minimum Slope&lt;/span>&amp;quot;&lt;span style=&quot; font-family:'DejaVu Sans','Lucida Grande','Tahoma','Verdana','Arial','sans-serif'; font-size:medium; color:#000000; background-color:#ffffff;&quot;> &lt;/span>gradient to preserve from cell to cell in degrees: with a value of zero sinks are filled up to the spill elevation (which results in flat areas). &lt;span style=&quot; font-family:'DejaVu Sans','Lucida Grande','Tahoma','Verdana','Arial','sans-serif'; font-size:medium; color:#000000; background-color:#ffffff;&quot;> &lt;/span>(&lt;a href=&quot;https://saga-gis.sourceforge.io/saga_tool_doc/9.2.0/ta_preprocessor_4.html&quot;>&lt;span style=&quot; text-decoration: underline; color:#0068da;&quot;>documentation)&lt;/span>&lt;/a>&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; text-decoration: underline;&quot;>OUTPUT&lt;/span>&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Lines vector file &lt;span style=&quot; font-weight:600;&quot;>“ShaLPA2- Water Drop Paths”&lt;/span> containing as many elements as there are the starting points, each composed of a single line, starting from the corresponding LIP and reaching the lowest point of the DTM.&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>The WDPs file is complete with all data and it's ready for the next script 3.&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>Processing time is short.&lt;/p>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-weight:600;&quot;>WARNING! &lt;/span>ShaLPA tool uses the new SAGA module. Since QGIS version 3.30 the SAGA module is no longer inside QGIS and you have to install it separately: the first step is to install a recent version of SAGA (version 9.1 or later) from &lt;a href=&quot;https://sourceforge.net/projects/saga-gis/&quot;>&lt;span style=&quot; font-weight:600; text-decoration: underline; color:#0068da;&quot;>SAGA sourceforge site&lt;/span>&lt;/a> and after install the QGIS plugin &amp;quot;Processing Saga NextGen Provider&amp;quot;. All the instructions for using SAGA binaries inside QGIS are in the zip file of SAGA application (Windows version) with the name &amp;quot;saga4qgis.zip&amp;quot;: inside there is a &amp;quot;readme&amp;quot; file.&lt;/p>&#xa;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;span style=&quot; font-weight:600;&quot;>WARNING! &lt;/span>SHALPA tool uses GRASS modules. In the Windows version of QGIS there is version 8 and version 7 of GRASS, and sometimes the modules conflict: disable version 8 and restart QGIS.&lt;/p>&lt;/body>&lt;/html>" type="QString"/>
+    <Option name="ALG_HELP_CREATOR" value="lorenzo.moretti@enea.it" type="QString"/>
+    <Option name="ALG_VERSION" value="2.1" type="QString"/>
+    <Option name="EXAMPLES" value="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;>&#xa;&lt;html>&lt;head>&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; />&lt;style type=&quot;text/css&quot;>&#xa;p, li { white-space: pre-wrap; }&#xa;&lt;/style>&lt;/head>&lt;body style=&quot; font-family:'.AppleSystemUIFont'; font-size:13pt; font-weight:400; font-style:normal;&quot;>&#xa;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;>&lt;br />&lt;/p>&lt;/body>&lt;/html>" type="QString"/>
+    <Option name="HELP_URL" value="" type="QString"/>
+    <Option name="SHORT_DESCRIPTION" value="Water Drop Path - Lines" type="QString"/>
+    <Option name="deminiziodecimale" value="Il DEM originale,  quello iniziale con la risoluzione migliore,  da cui partono tutte le analisi&#xa;" type="QString"/>
+    <Option name="demrisoluzione" value="La risoluzione,  in metri per pixel,  con cui si desidera creare il percorso. a scelta.  E' possibile fare una elaborazione ad esempio con il valore 2 (metri/pixel) oppure 5 o 10 o qualunque altro valore.  E' importante fare diverse prove per vedere il risultato migliore per l'intera area." type="QString"/>
+    <Option name="gdal:translate_1:2-Water Drop Path - raster" value="The raster file of the path of the water drop from the highest point to the downstreams" type="QString"/>
+    <Option name="gdal:translate_1:2a-Water Drop Path - raster" value="The raster file of Water Drop Path" type="QString"/>
+    <Option name="gdal:translate_1:FPL" value="il file raster del percorso di flusso,  FLOW PATH LENGTH, con la risoluzione scelta in ingresso" type="QString"/>
+    <Option name="max_value_points_vector_points" value="The vector points from script 1&#xa;" type="QString"/>
+    <Option name="minimum_slope_degree__fill_sinks" value="Minimum slope gradient to preserve from cell to cell; with a value of zero sinks are filled up to the spill elevation (which results in flat areas). Unit [Degree]. ( SAGA tool: “Fill Sink (Wang &amp; Liu)” -Wang and Liu 2006 )" type="QString"/>
+    <Option name="native:extractbyexpression_1:2-WDP lines start" value="The vector line with the path of water drop. It's a simple line without categories" type="QString"/>
+    <Option name="native:extractbyexpression_1:2a-WDP lines start" value="The start vector line uncategorized.&#xa;&#xa;THIS FILE CAN REMAIN AS IS OR CAN BE EDITED TO REMOVE MINOR INACCURACIES, FOR THE NEXT SCRIPT 2b&#xa;" type="QString"/>
+    <Option name="native:extractbyexpression_1:fpl_lines_PIFF_start" value="Il file vettoriale delle linee del percorso non categorizzato che servirà nella successiva parte 2 del modello. È possibile modificarlo." type="QString"/>
+    <Option name="native:extractbyexpression_1:fpl_lines_PIFF_start_fix" value="Il file vettoriale di linee non categorizzato ma dove sono stati corrette piccole imperfezioni, molto simile all'altro file in uscita. Due file sostanzialmente identici. Si può modificare per prepararlo per la parte 2 oppure si usa tale e quale." type="QString"/>
+    <Option name="native:fieldcalculator_1:fpl_lines_PIFF_start" value="Il file vettoriale di linee non categorizzato. Si può modificare per prepararlo per la parte 2." type="QString"/>
+    <Option name="native:fieldcalculator_22:fpl_lines_PIFF_START" value="Viene creato il percorso del flusso in formato vettoriale con linee. &#xa;Questo percorso segue il raster FPL. &#xa;Il file vettoriale di linee è in formato grezzo e può essere:&#xa;- NON MODIFICATO: lasciare il file inalterato per passare direttamente all'elaborazione nella parte 2 del modello. E' la scelta migliore che consigliamo.&#xa;- MODIFICATO: il file vettoriale può essere modificato manualmente per togliere errori basati su interpolazioni, incroci non corretti o altro.  Non lo consigliamo se non si capisce come intervenire. &#xa;&#xa;ATTENZIONE: le modifiche devono essere sempre ben ponderate e controllate rispetto agli altri livelli presenti come il DEM.  Il file modificato deve essere elaborato dalla parte 2 del modello." type="QString"/>
+    <Option name="native:fieldcalculator_47:2-WDP points line alert" value="Vector points to indicate probable problems along route lines" type="QString"/>
+    <Option name="native:fieldcalculator_47:2a-WDP points line alert" value="A vector point file for warning of problems on lines" type="QString"/>
+    <Option name="native:fieldcalculator_47:fpl_points_line_alert" value="Un file vettoriali di punti che identificano le linee da controllare perché potrebbero portare problemi nella PARTE 2 successiva" type="QString"/>
+    <Option name="native:fieldcalculator_48:PIFF_newloc" value="Il nuovo file dei punti PIFF vettoriale legato alla risoluzione scelta in input.  Se la risoluzione scelta è diversa da quella originale,  i punti PIFF sono leggermente spostati dai PUNTI PIFF scelto come livello vettoriale in input." type="QString"/>
+    <Option name="native:fieldcalculator_7:2-WDP lines" value="The Water Drop Path lines with the data. This file is ready for the script 3, the next one" type="QString"/>
+    <Option name="native:fieldcalculator_7:2-WDP lines final" value="The Water Drop Path final with the data. This file is ready for the next script 3a." type="QString"/>
+    <Option name="native:fieldcalculator_7:ShaLPA2 - Water Drop Paths" value="The “ShaLPA2- Water Drop Paths” containing as many elements as there are the starting points, each composed of a single line, starting from the corresponding LIP and reaching the lowest point of the DTM&#xa;This file is ready for the script 3, the next one" type="QString"/>
+    <Option name="original_dem_raster" value="Il file DEM originale ad alta risoluzione" type="QString"/>
+    <Option name="original_dtm_raster" value="The Original DTM with the best resolution" type="QString"/>
+    <Option name="original_piff_points_vector_point" value="Il file vettoriale dei punti di partenza a quota più alta. I punti PIFF" type="QString"/>
+    <Option name="poly" value="I punti vettoriali creati con il DEM ORIGINALE (dal modello MaxValuePoints). &#xa;In questo file deve essere presente il campo ID_PIFF che identifica il punto e l'area di riferimento" type="QString"/>
+    <Option name="qgis:executesql_1:fpl_points" value="Il file  dei punti che segue esattamente il percorso del file raster FPL, un punto per ogni pixel" type="QString"/>
+    <Option name="shalpa1_landslide_identification_points" value="The vector point file created by script 1, &quot;ShaLPA1- Landslide Identification Points&quot;, containing the highest elevation points within the Source Areas" type="QString"/>
+    <Option name="source_area_features_vector_points" value="The vector points from GIS Tool n.1 - The highest elevation point inside the trigger area with some features of the area." type="QString"/>
+  </Option>
+  <Option name="internal_version" value="Version1" type="QString"/>
+  <Option name="modelVariables"/>
+  <Option name="model_group" value="ShaLPA tool" type="QString"/>
+  <Option name="model_name" value="ShaLPA2 - Water Drop Paths" type="QString"/>
+  <Option name="outputGroup" value="" type="QString"/>
+  <Option name="outputOrder"/>
+  <Option name="parameterDefinitions" type="Map">
+    <Option name="minimum_slope_degree__fill_sinks" type="Map">
+      <Option name="data_type" value="1" type="int"/>
+      <Option name="default" value="0.1" type="double"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Minimum Slope (degree) - FILL SINKS" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="Minimum slope gradient to preserve from cell to cell; with a value of zero sinks are filled up to the spill elevation (which results in flat areas). Unit [Degree]. ( SAGA tool: “Fill Sink (Wang &amp; Liu)” -Wang and Liu 2006 )" type="QString"/>
+      <Option name="max" value="1" type="double"/>
+      <Option name="metadata"/>
+      <Option name="min" value="0" type="double"/>
+      <Option name="name" value="minimum_slope_degree__fill_sinks" type="QString"/>
+      <Option name="parameter_type" value="number" type="QString"/>
+    </Option>
+    <Option name="native:fieldcalculator_7:ShaLPA2 - Water Drop Paths" type="Map">
+      <Option name="create_by_default" value="true" type="bool"/>
+      <Option name="data_type" value="-1" type="int"/>
+      <Option name="default" type="QgsProcessingOutputLayerDefinition">
+        <Option type="Map">
+          <Option name="create_options" type="Map">
+            <Option name="fileEncoding" value="UTF-8" type="QString"/>
+          </Option>
+          <Option name="sink" type="Map">
+            <Option name="active" value="true" type="bool"/>
+            <Option name="type" value="1" type="int"/>
+            <Option name="val" value="TEMPORARY_OUTPUT" type="QString"/>
+          </Option>
+        </Option>
+      </Option>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="ShaLPA2 - Water Drop Paths" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata" type="Map">
+        <Option name="_modelChildId" value="native:fieldcalculator_7" type="QString"/>
+        <Option name="_modelChildOutputName" value="ShaLPA2 - Water Drop Paths" type="QString"/>
+        <Option name="_modelChildProvider" value="native" type="QString"/>
+      </Option>
+      <Option name="name" value="native:fieldcalculator_7:ShaLPA2 - Water Drop Paths" type="QString"/>
+      <Option name="parameter_type" value="sink" type="QString"/>
+      <Option name="supports_append" value="true" type="bool"/>
+      <Option name="supports_non_file_outputs" value="true" type="bool"/>
+    </Option>
+    <Option name="original_dtm_raster" type="Map">
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="ORIGINAL DTM (raster)" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="The Original DTM with the best resolution" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="name" value="original_dtm_raster" type="QString"/>
+      <Option name="parameter_type" value="raster" type="QString"/>
+    </Option>
+    <Option name="shalpa1_landslide_identification_points" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="0" type="int"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="ShaLPA1- Landslide Identification Points" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="The vector point file created by script 1, &quot;ShaLPA1- Landslide Identification Points&quot;, containing the highest elevation points within the Source Areas" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="name" value="shalpa1_landslide_identification_points" type="QString"/>
+      <Option name="parameter_type" value="vector" type="QString"/>
+    </Option>
+  </Option>
+  <Option name="parameterOrder" type="StringList">
+    <Option value="original_dtm_raster" type="QString"/>
+    <Option value="shalpa1_landslide_identification_points" type="QString"/>
+    <Option value="minimum_slope_degree__fill_sinks" type="QString"/>
+  </Option>
+  <Option name="parameters" type="Map">
+    <Option name="minimum_slope_degree__fill_sinks" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="663.5869803063457" type="double"/>
+        <Option name="component_pos_y" value="486.8451859956235" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="minimum_slope_degree__fill_sinks" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="326.79349015317285" type="double"/>
+      <Option name="component_pos_y" value="135" type="double"/>
+      <Option name="component_width" value="293.5869803063457" type="double"/>
+      <Option name="name" value="minimum_slope_degree__fill_sinks" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="original_dtm_raster" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="255,255,255,255,rgb:1,1,1,1" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="30" type="double"/>
+        <Option name="component_pos_x" value="195" type="double"/>
+        <Option name="component_pos_y" value="135" type="double"/>
+        <Option name="component_width" value="270" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="original_dtm_raster" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="150" type="double"/>
+      <Option name="component_pos_y" value="75" type="double"/>
+      <Option name="component_width" value="180" type="double"/>
+      <Option name="name" value="original_dtm_raster" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+    <Option name="shalpa1_landslide_identification_points" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="255,255,255,255,rgb:1,1,1,1" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="30" type="double"/>
+        <Option name="component_pos_x" value="1035" type="double"/>
+        <Option name="component_pos_y" value="135" type="double"/>
+        <Option name="component_width" value="270" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="shalpa1_landslide_identification_points" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="420" type="double"/>
+      <Option name="component_pos_y" value="75" type="double"/>
+      <Option name="component_width" value="300" type="double"/>
+      <Option name="name" value="shalpa1_landslide_identification_points" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
+  </Option>
+</Option>
