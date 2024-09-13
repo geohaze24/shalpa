@@ -11,7 +11,7 @@ All files are Graphical Models for QGIS version 3.32 and later
 
 # ShaLPA DATA
 
-The landslide inventory used in this study is available in "ShaLPA_DATA.zip", 3 shape files for calibration and 3 shape files for validation.
+The landslide inventory used in this study is available in "ShaLPA_DATA.zip", 3 shape files for calibration and 3 shape files for validation.<br />
 The Soil Thickness Map has been divided into 2 raster files ("ShaLPA_SoilThicknessMap_West.tif" and "ShaLPA_SoilThicknessMap_East.tif") because the total size exceeds the 25MB limit of this repository. These two maps need to be combined into a single raster file, the "ShaLPA_SoilThicknessMap.tif"
 
 The 2 m cell size DTM (ATA flight 2012-2013), used in the study as basis for the morphometric analysis, is provided by Sicilian Regional Authorities (https://www.sitr.regione.sicilia.it/geoportale/it/Metadata/Details/946).<br />
