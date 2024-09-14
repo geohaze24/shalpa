@@ -26,9 +26,9 @@ To open models within your project:
 How to start with demonstration data.
 The starting model of the tool is “ShaLPA1 - Source Area Features.model3” which requires:
 - DTM model of the area (see ShaLPA DATA section above);
-- the Soil Thickness Map (ShaLPA_SoilThicknessMap.tif);
+- the Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif");
 - the Lithological Map;
-- Sources Areas ("ShaLPA_DATA.zip".
+- Sources Areas ("ShaLPA_DATA.zip").
 
 The outputs of this model are used for the following Shalpa tool models.
 
