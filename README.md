@@ -16,7 +16,7 @@ The Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif") was produced using the GI
 
 # Using ShaLPA Tool
 
-To use these models, you must have QGIS 3.32 or later together with the GRASS and SAGA tools in any operating system, Windows, MacOS or Linux.<br />
+To use these models, you must have QGIS 3.32 or later with the GRASS and SAGA tools in any operating system, Windows, MacOS or Linux.<br />
 The latest distributions of QGIS include both the GRASS tool and the SAGA tool. The SAGA tool, in the latest versions of QGIS, needs the installation of a “Processing Saga NextGen Provider” plugin.
 To open models within your project:
 - open your QGIS project;
