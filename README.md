@@ -7,6 +7,7 @@ The ShaLPA GIS tool was tested for the first time in the Giampilieri and Briga a
 
 The reliability assessment was conducted by comparing observed and estimated runout values, providing encouraging results. The simplicity of using the ShaLPA tool promotes the integration of runout and failure susceptibility analyses, enhancing the completeness of hazard and risk assessment and improving the effectiveness of landslide mitigation measures.
 
+<img src="shalpa_screenshot.jpg" alt="ShaLPA - flow on DTM">
 # ShaLPA DATA
 
 The landslide inventory used in this study is available in "ShaLPA_DATA.zip", 3 shape files for validation and 3 shape files for calibration (SourceAreas, LandslidePaths and LandslideArrestPoints).<br />
