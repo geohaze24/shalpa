@@ -12,8 +12,6 @@ All files are Graphical Models for QGIS version 3.32 and later
 # ShaLPA DATA
 
 The landslide inventory used in this study is available in "ShaLPA_DATA.zip", 3 shape files for calibration and 3 shape files for validation.<br />
-The Soil Thickness Map has been divided into 2 raster files ("ShaLPA_SoilThicknessMap_West.tif" and "ShaLPA_SoilThicknessMap_East.tif") because the total size exceeds the 25MB limit of this repository. These two maps need to be combined into a single raster file, the "ShaLPA_SoilThicknessMap.tif"
-
 The 2 m cell size DTM (ATA flight 2012-2013), used in the study as basis for the morphometric analysis, is provided by Sicilian Regional Authorities (https://www.sitr.regione.sicilia.it/geoportale/it/Metadata/Details/946).<br />
 The high-resolution aerial images (tiff format) and the 1:50,000 geological map of the Messina province (shp format) are provided by the Regional Civil Protection Department of Sicily, as well as the geotechnical report of the General Master Plan of the Messina Municipality (Comune di Messina - Piano regolatore generale - Variante parziale di tutela ambientale. Elaborato: relazione geologica – Giugno 2015/Aggiornato Febbraio 2017), used to identify the unit weight of the formations present in the geological map.<br />  
-The soil thickness map was produced using the GIST model approach described in Catani et al., 2010 (https://doi.org/10.1029/2008WR007450) and the specific process details are described in Falconi et al. 2023 (https://doi.org/10.1007/s11069-023-05945-8).
+The Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif") was produced using the GIST model approach described in Catani et al., 2010 (https://doi.org/10.1029/2008WR007450) and the specific process details are described in Falconi et al. 2023 (https://doi.org/10.1007/s11069-023-05945-8).
