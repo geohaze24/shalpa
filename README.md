@@ -5,7 +5,7 @@ Hazard maps for shallow landslides at the basin or regional scale often provide 
 
 The ShaLPA GIS tool was tested for the first time in the Giampilieri and Briga area (Sicily, Italy), allowing the identification of strengths and weaknesses in the process and leading to improvements in the structure of the scripts. The application leverages the capability of the free QGIS software to automate the data processing required for the runout analysis. The scripts used by the runout GIS tool primarily manage a detailed DTM and basic geotechnical data, drawing the paths along which shallow landslides may move. The model estimates the maximum distance reached by the mobilised material (runout) and describes the distribution of velocity and kinetic energy along the path.
 
-<img src="shalpa_screenshot.jpg" alt="ShaLPA - flow on DTM" style="float:center;width:370px;height:370px;">
+<img src="shalpa_screenshot.jpg" alt="ShaLPA - flow on DTM" style="align:center;width:370px;height:370px;">
 
 The reliability assessment was conducted by comparing observed and estimated runout values, providing encouraging results. The simplicity of using the ShaLPA tool promotes the integration of runout and failure susceptibility analyses, enhancing the completeness of hazard and risk assessment and improving the effectiveness of landslide mitigation measures.
 
