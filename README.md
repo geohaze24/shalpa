@@ -23,7 +23,7 @@ To open models within your project:
 - select “Toolbox” from the “Processing” menu;
 - in the “Processing Toolbox” window, select “Open Existing Model...” to open the model file.
 
-How to start with demonstration data.
+How to start with demonstration data.<br />
 The starting model of the tool is “ShaLPA1 - Source Area Features.model3” which requires:
 - DTM model of the area (see ShaLPA DATA section above);
 - the Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif");
