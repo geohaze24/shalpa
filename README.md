@@ -20,7 +20,7 @@ The 2 m cell size DTM (ATA flight 2012-2013), used in the study as basis for the
 The high-resolution aerial images (tiff format) and the 1:50,000 geological map of the Messina province (shp format) are provided by the Regional Civil Protection Department of Sicily, as well as the geotechnical report of the General Master Plan of the Messina Municipality (Comune di Messina - Piano regolatore generale - Variante parziale di tutela ambientale. Elaborato: relazione geologica – Giugno 2015/Aggiornato Febbraio 2017), used to identify the unit weight of the formations present in the geological map.<br />  
 The Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif") was produced using the GIST model approach described in Catani et al., 2010 (https://doi.org/10.1029/2008WR007450) and the specific process details are described in Falconi et al. 2023 (https://doi.org/10.1007/s11069-023-05945-8).
 
-# Using ShaLPA Tool
+# Using ShaLPA Tool - Demo Data
 
 To use these models, you must have QGIS 3.32 or later with the GRASS and SAGA tools in any operating system, Windows, MacOS or Linux.<br />
 The latest distribution of QGIS includes both, GRASS and SAGA tool. The SAGA tool, in the latest versions of QGIS, needs the installation of a “Processing Saga NextGen Provider” plugin. Read the help inside the model. <br />
@@ -51,7 +51,6 @@ Within each model there is a very detailed HELP.
 
 Of course, you can also edit the model according to your needs. You can use it in any of your projects.
 
-# Using ShaLPA Tool - Demo Data
 
 The starting model of the tool is “ShaLPA1 - Source Area Features.model3” which requires:
 
