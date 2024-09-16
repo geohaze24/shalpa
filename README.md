@@ -7,7 +7,7 @@ The ShaLPA GIS tool was tested for the first time in the Giampilieri and Briga a
 
 
 <div align="center">
-	<img width="370" src="shalpa_screenshot.jpg" alt="ShaLPA - flow on DTM">
+	<img width="600" src="shalpa_screenshot.jpg" alt="ShaLPA - flow on DTM">
 </div>
 
 
@@ -28,7 +28,7 @@ The latest distribution of QGIS includes both, GRASS and SAGA tool. The SAGA too
 
 
 <div align="center">
-	<img width="370" src="shalpa_flow.jpg" alt="ShaLPA - flow diagram">
+	<img width="600" src="shalpa_flow.jpg" alt="ShaLPA - flow diagram">
 </div>
 
 
@@ -60,7 +60,7 @@ The starting model of the tool is “ShaLPA1 - Source Area Features.model3” wh
 
 
 <div align="center">
-	<img width="370" src="shalpa_landslide_speed_energy.jpg" alt="ShaLPA - output of ShaLPA4">
+	<img width="600" src="shalpa_landslide_speed_energy.jpg" alt="ShaLPA - output of ShaLPA4">
 </div>
 
 
