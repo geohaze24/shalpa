@@ -28,7 +28,8 @@ The latest distribution of QGIS includes both, GRASS and SAGA tool. The SAGA too
 
 
 <div align="center">
-	<img width="600" src="shalpa_flow.jpg" alt="ShaLPA - flow diagram">
+	<img width="800" src="shalpa_flow.jpg" alt="ShaLPA - flowchart">
+	ShaLPA Tool - Flowchart
 </div>
 
 
@@ -60,7 +61,8 @@ The starting model of the tool is “ShaLPA1 - Source Area Features.model3” wh
 
 
 <div align="center">
-	<img width="600" src="shalpa_landslide_speed_energy.jpg" alt="ShaLPA - output of ShaLPA4">
+	<img width="800" src="shalpa_landslide_speed_energy.jpg" alt="ShaLPA - output of ShaLPA4">
+	ShaLPA Tool - Output of ShaLPA 4
 </div>
 
 
