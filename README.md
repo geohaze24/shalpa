@@ -7,7 +7,7 @@ The ShaLPA GIS tool was tested for the first time in the Giampilieri and Briga a
 
 
 <div align="center">
-	<img width="600" src="shalpa_screenshot.jpg" alt="ShaLPA - flow on DTM">
+	<img width="600" src="shalpa_eg.jpg" alt="ShaLPA - flow on DTM">
 </div>
 
 
