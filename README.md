@@ -18,7 +18,7 @@ The reliability assessment was conducted by comparing observed and estimated run
 The landslide inventory used in this study is available in "ShaLPA_Demo_Data.zip", 3 shape files for validation and 3 shape files for calibration (SourceAreas, LandslidePaths and LandslideArrestPoints).<br />
 The 2 m cell size DTM (ATA flight 2012-2013), used in the study as basis for the morphometric analysis, is provided by Sicilian Regional Authorities (https://www.sitr.regione.sicilia.it/geoportale/it/Metadata/Details/946).<br />
 The high-resolution aerial images (tiff format) and the 1:50,000 geological map of the Messina province (shp format) are provided by the Regional Civil Protection Department of Sicily, as well as the geotechnical report of the General Master Plan of the Messina Municipality (Comune di Messina - Piano regolatore generale - Variante parziale di tutela ambientale. Elaborato: relazione geologica – Giugno 2015/Aggiornato Febbraio 2017), used to identify the unit weight of the formations present in the geological map.<br />  
-The Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif") was produced using the GIST model approach described in Catani et al., 2010 (https://doi.org/10.1029/2008WR007450) and the specific process details are described in Falconi et al. 2023 (https://doi.org/10.1007/s11069-023-05945-8).
+The Soil Thickness Map ("ShaLPA_Demo_Data_SoilThicknessMap.tif") was produced using the GIST model approach described in Catani et al., 2010 (https://doi.org/10.1029/2008WR007450) and the specific process details are described in Falconi et al. 2023 (https://doi.org/10.1007/s11069-023-05945-8).
 
 
 To use these models, you must have QGIS 3.32 or later with the GRASS and SAGA tools in any operating system, Windows, MacOS or Linux.<br />
@@ -54,7 +54,7 @@ Of course, you can also edit the model according to your needs. You can use it i
 The starting model of the tool is “ShaLPA1 - Source Area Features.model3” which requires:
 
 - DTM of the area (see ShaLPA - Demo Data section above);
-- the Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif");
+- the Soil Thickness Map ("ShaLPA_Demo_Data_SoilThicknessMap.tif");
 - the Lithological Map (see ShaLPA - Demo Data section above);
 - Sources Areas (inside "ShaLPA_Demo_Data.zip" there is 'SourceAreas_validation' file ).
 
