@@ -46,7 +46,8 @@ The starting model of the tool is “ShaLPA1 - Source Area Features.model3” wh
 - the Lithological Map of your area (a vector file with polygons);
 - Sources Areas of your area (a vector file with polygons).
 
-The outputs of this model are used for the following Shalpa tool models.
+The outputs of this model are used for the following Shalpa tool models.<br />
+Within each model there is a very detailed HELP.
 
 Of course, you can also edit the model according to your needs. You can use it in any of your projects.
 
