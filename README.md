@@ -13,14 +13,13 @@ The ShaLPA GIS tool was tested for the first time in the Giampilieri and Briga a
 
 The reliability assessment was conducted by comparing observed and estimated runout values, providing encouraging results. The simplicity of using the ShaLPA tool promotes the integration of runout and failure susceptibility analyses, enhancing the completeness of hazard and risk assessment and improving the effectiveness of landslide mitigation measures.
 
-# ShaLPA - Demo Data
+# Using ShaLPA Tool - Demo Data
 
 The landslide inventory used in this study is available in "ShaLPA_DATA.zip", 3 shape files for validation and 3 shape files for calibration (SourceAreas, LandslidePaths and LandslideArrestPoints).<br />
 The 2 m cell size DTM (ATA flight 2012-2013), used in the study as basis for the morphometric analysis, is provided by Sicilian Regional Authorities (https://www.sitr.regione.sicilia.it/geoportale/it/Metadata/Details/946).<br />
 The high-resolution aerial images (tiff format) and the 1:50,000 geological map of the Messina province (shp format) are provided by the Regional Civil Protection Department of Sicily, as well as the geotechnical report of the General Master Plan of the Messina Municipality (Comune di Messina - Piano regolatore generale - Variante parziale di tutela ambientale. Elaborato: relazione geologica – Giugno 2015/Aggiornato Febbraio 2017), used to identify the unit weight of the formations present in the geological map.<br />  
 The Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif") was produced using the GIST model approach described in Catani et al., 2010 (https://doi.org/10.1029/2008WR007450) and the specific process details are described in Falconi et al. 2023 (https://doi.org/10.1007/s11069-023-05945-8).
 
-# Using ShaLPA Tool - Demo Data
 
 To use these models, you must have QGIS 3.32 or later with the GRASS and SAGA tools in any operating system, Windows, MacOS or Linux.<br />
 The latest distribution of QGIS includes both, GRASS and SAGA tool. The SAGA tool, in the latest versions of QGIS, needs the installation of a “Processing Saga NextGen Provider” plugin. Read the help inside the model. <br />
