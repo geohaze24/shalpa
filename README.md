@@ -47,4 +47,4 @@ The starting model of the tool is “ShaLPA1 - Source Area Features.model3” wh
 - DTM of the area (see ShaLPA - Demo Data section above);
 - the Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif");
 - the Lithological Map (see ShaLPA - Demo Data section above);
-- Sources Areas (inside "ShaLPA_DATA.zip" there is 'SourceAreas_validation' file ).
+- Sources Areas (inside "ShaLPA_Demo_Data.zip" there is 'SourceAreas_validation' file ).
