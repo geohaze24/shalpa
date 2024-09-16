@@ -24,6 +24,15 @@ The Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif") was produced using the GI
 
 To use these models, you must have QGIS 3.32 or later with the GRASS and SAGA tools in any operating system, Windows, MacOS or Linux.<br />
 The latest distribution of QGIS includes both, GRASS and SAGA tool. The SAGA tool, in the latest versions of QGIS, needs the installation of a “Processing Saga NextGen Provider” plugin. Read the help inside the model. <br />
+
+
+
+<div align="center">
+	<img width="370" src="shalpa_flow.jpg" alt="ShaLPA - flow diagram">
+</div>
+
+
+
 To open models within your project:
 - create your QGIS project;
 - inside QGIS select “Toolbox” from the “Processing” menu;
@@ -48,3 +57,10 @@ The starting model of the tool is “ShaLPA1 - Source Area Features.model3” wh
 - the Soil Thickness Map ("ShaLPA_SoilThicknessMap.tif");
 - the Lithological Map (see ShaLPA - Demo Data section above);
 - Sources Areas (inside "ShaLPA_Demo_Data.zip" there is 'SourceAreas_validation' file ).
+
+
+<div align="center">
+	<img width="370" src="shalpa_landslide_speed_energy.jpg" alt="ShaLPA - output of ShaLPA4">
+</div>
+
+
