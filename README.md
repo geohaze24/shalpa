@@ -62,7 +62,7 @@ The starting model of the tool is “ShaLPA1 - Source Area Features.model3” wh
 
 <div align="center">
 	<img width="800" src="shalpa_landslide_speed_energy.jpg" alt="ShaLPA - output of ShaLPA4">
-	ShaLPA Tool - Output of ShaLPA 4
+	ShaLPA Tool - Output of ShaLPA4
 </div>
 
 
