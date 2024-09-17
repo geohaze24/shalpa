@@ -38,7 +38,7 @@ To open models within your project:
 - inside QGIS select “Toolbox” from the “Processing” menu;
 - in the “Processing Toolbox” window, select “Open Existing Model...” to open the model file.
 
-The starting model of the tool is “ShaLPA1 - Source Area Features.model3” which requires:
+The starting model of the tool is “ShaLPA1 - SOURCE AREA FEATURES.model3” which requires:
 
 - DTM of your area (a raster file);
 - the Soil Thickness Map of your area (a raster file);
@@ -51,7 +51,7 @@ Within each model there is a very detailed HELP.
 Of course, you can also edit the model according to your needs. You can use it in any of your projects.
 
 
-Demo Data - The starting model of the tool is “ShaLPA1 - Source Area Features.model3” which requires:
+Demo Data - The starting model of the tool is “ShaLPA1 - SOURCE AREA FEATURES.model3” which requires:
 
 - DTM of the area (2 m cell size - see above);
 - the Soil Thickness Map ("ShaLPA_Demo_Data_SoilThicknessMap.tif");
