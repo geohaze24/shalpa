@@ -53,9 +53,9 @@ Of course, you can also edit the model according to your needs. You can use it i
 
 Demo Data - The starting model of the tool is “ShaLPA1 - SOURCE AREA FEATURES.model3” which requires:
 
-- DTM of the area (2 m cell size - see above);
+- DTM of the area (2 m cell size - see above where you can download it);
 - the Soil Thickness Map ("ShaLPA_Demo_Data_SoilThicknessMap.tif");
-- the Lithological Map (see above);
+- the Lithological Map (see above where you can download it);
 - Sources Areas (in "ShaLPA_Demo_Data.zip" there is 'SourceAreas_validation' file ).
 
 
