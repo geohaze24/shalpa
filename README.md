@@ -61,7 +61,7 @@ The Soil Thickness Map ("ShaLPA_Demo_Data_SoilThicknessMap.tif") was produced us
 
 Demo Data - The Demo data required to run the model “ShaLPA1 - SOURCE AREA FEATURES.model3” are:
 - DTM of the area (2 m cell size - see above where you can download it);
-- the Soil Thickness Map ("ShaLPA_Demo_Data_SoilThicknessMap.tif");
+- the Soil Thickness Map (in "ShaLPA_Demo_Data_SoilThicknessMap.tif");
 - the Geotechnical Map (in "ShaLPA_Demo_Data_GeotechnicalMap.rar");
 - Sources Areas (in "ShaLPA_Demo_Data_LandslideInventory.zip" there is 'SourceAreas_validation' file ).
 
