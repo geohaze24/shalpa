@@ -1,5 +1,5 @@
 # ShaLPA
-<strong>ShaLPA tool - Shallow Landslides Propagation Assessment at basin scale</strong>
+<strong>ShaLPA tool - Shallow Landslides Propagation Assessment at basin scale - (https://doi.org/10.1016/j.envsoft.2025.106512)</strong>
 
 Hazard maps for shallow landslides at the basin or regional scale often provide information solely about past events (inventory maps) and/or potential source areas (initiation susceptibility maps). Despite the availability of several propagation assessment software tools, runout maps that estimate the propagation areas of potential shallow landslides at basin scale are very rare. To fill this gap, the ShaLPA runout GIS tool was developed as an easy-to-use and efficient solution. This tool is based on a geometric approach, that relates one or more dimensional characteristics of a shallow landslide to the maximum runout of the mobilized material.
 
